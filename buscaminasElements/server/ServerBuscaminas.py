@@ -47,7 +47,7 @@ def main():
                             break
                         
                         cells_discovered += 1
-
+                        
                         if cyheckWinningCase(cells_discovered , grid_size , num_mines):
                             game_active = False
                             Client_conn.sendall(b"You've finished the entire table, you won")
