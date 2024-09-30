@@ -1,5 +1,5 @@
 class ConnectElements:
-    def __init__(self , hostIP , hostPort, matchName):
+    def __init__(self , hostIP , hostPort, matchName = "Normal match"):
         self._hostIP = hostIP
         self._hostPort = hostPort
         self._matchName = matchName
